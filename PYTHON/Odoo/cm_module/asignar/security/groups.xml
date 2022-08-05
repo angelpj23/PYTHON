@@ -1,0 +1,33 @@
+<!-- 
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="cm_contact_custom_delete" model="res.groups">
+        <field name="name">CM Eliminar Contacto</field>
+        <field name="category_id" ref="base.module_category_usability" />
+        <field name="comment">This group is delete Contacto:</field>
+    </record>
+    <record id="cm_contact_custom_modificar" model="res.groups">
+        <field name="name">CM Restringir crear/modificar contacto</field>
+        <field name="category_id" ref="base.module_category_usability" />
+        <field name="comment">Evitar que se pueda modificar o crear el contacto principal (permitiendo que el chatter funcione) [ (Este grupo evita que el usuario pueda crear/modificar contactos principales)]</field>
+    </record>
+    <record id="cm_contact_custom_restrict" model="res.groups">
+        <field name="name">CM Restringir creacion de contacto</field>
+        <field name="category_id" ref="base.module_category_usability" />
+        <field name="comment">Evitar que puedan crear contactos principales (Este grupo evita que el usuario pueda crear contactos principales pero permite ser modificado)</field>
+    </record>
+
+    <record id="base.access_res_partner_group_partner_manager" model="ir.model.access">
+        <field name="perm_read" eval="True" />
+        <field name="perm_write" eval="True" />
+        <field name="perm_create" eval="True" />
+        <field name="perm_unlink" eval="False" />
+    </record>
+    <record id="hr_recruitment.access_res_partner_hr_user" model="ir.model.access">
+        <field name="perm_read" eval="True" />
+        <field name="perm_write" eval="True" />
+        <field name="perm_create" eval="True" />
+        <field name="perm_unlink" eval="False" />
+    </record>
+
+</odoo> -->
