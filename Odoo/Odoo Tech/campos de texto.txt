@@ -1,0 +1,8 @@
+<!-- <form string="Asignar Vendedores a clientes" modifiers="{}">
+	<div modifiers="{}">Seleccione los vendedores que desea asignar a los clientes</div>
+	<field name="user_ids" modifiers="{}"/>
+	<footer modifiers="{}">
+    <button name="act_asignar" string="Asignar Clientes" class="btn-primary" type="object" /> <!--name (nombre de la funcion)-->
+		<button string="Cancelar" class="btn-secondary" special="cancel" modifiers="{}" options="{}"/>
+	</footer>
+</form> -->

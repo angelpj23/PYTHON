@@ -1,4 +1,0 @@
-Verificar los nombre tecnicos de los campos del odoo donde se esta 
-trabajando actualmente
-
-Ej. de nombre tecnico: res.partner_id
